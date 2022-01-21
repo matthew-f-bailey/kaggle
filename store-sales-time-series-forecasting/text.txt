@@ -1,0 +1,16 @@
+a. Your team members and each one’s contribution
+	I completed the project solo
+b. Briefly explain your pipeline and methods
+	First I did some EDA to get an idea of the data
+	My thoughts were that Holidays may differ. Local v. National So I added features to indicate if national v. local holiday
+	Combining all the datasets to use oil proces, if its a local v. national holiday and the day of the week.
+	Using all of these as predictors.
+c. Coding work in R or Python
+	My inital thinking was to use a fancy model and since I was currently looking into XGBoost and the hype around it, thats what I went with.
+d. The training performance
+	The training performance was actually decent but upon submitting predicitions, it was not good. I think with what I did, the model was overfitted. 
+	The r^2 value on the training performance was around 0.95 and the xgb_model score at 0.955
+	A lot of this was informative just for learning the hyper-parameter tuning. Looking into this subject was something I haven't done before.
+e. The final testing performance and ranking in Public Leaderboard
+	This is where I took a simpler approach. After getting a pretty bad score, (Like bottom 20%). I found simply using the stores mean actually worked better.
+	This got a score of 0.678, being 698 on the Public Leaderboard.

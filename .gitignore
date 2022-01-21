@@ -1,1 +1,5 @@
 KaggleEnv
+store-sales-time-series-forecasting/train.csv
+store-sales-time-series-forecasting/.ipynb_checkpoints/test-checkpoint.csv
+store-sales-time-series-forecasting/.ipynb_checkpoints/submission-checkpoint.csv
+store-sales-time-series-forecasting/.ipynb_checkpoints/sample_submission-checkpoint.csv
